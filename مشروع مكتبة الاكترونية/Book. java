@@ -1,0 +1,42 @@
+
+public class Book {
+    private String title;
+    private String author;
+    private String ISBN;
+    private boolean available; // حالة الكتاب (متاح أو مستعار)
+
+    // Constructor - المُنشئ
+    public Book(String title, String author, String ISBN) {
+        this.title = title;
+        this.author = author;
+        this.ISBN = ISBN;
+        this.available = true; // متاح افتراضيًا عند الإنشاء
+    }
+
+    // Getter methods
+    public String getTitle() { return title; }
+    public String getAuthor() { return author; }
+    public String getISBN() { return ISBN; }
+    public boolean isAvailable() { return available; }
+
+    // استعارة الكتاب
+    public void borrowBook() {
+        if (available) {
+            available = false;
+            System.out.println(title + " قد تم استعارته.");
+        } else {
+            System.out.println(title + " غير متاح حاليًا.");
+        }
+    }
+
+    // إرجاع الكتاب
+    public void returnBook() {
+        available = true;
+        System.out.println(title + " قد تم إرجاعه.");
+    }
+
+    // عرض معلومات الكتاب
+    public void displayInfo() {
+        System.out.println("العنوان: " + title + ", المؤلف: " + author + ", ISBN: " + ISBN + ", الحالة: " + (available ? "متاح" : "مستعار"));
+    }
+}

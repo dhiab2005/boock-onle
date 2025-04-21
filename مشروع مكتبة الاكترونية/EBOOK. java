@@ -1,0 +1,16 @@
+public class EBook extends Book {
+    private String downloadLink;
+
+    public EBook(String title, String author, String ISBN, String downloadLink) {
+        super(title, author, ISBN); // استدعاء المُنشئ في الفئة الأب
+        this.downloadLink = downloadLink;
+    }
+
+    public String getDownloadLink() { return downloadLink; }
+
+    @Override
+    public void displayInfo() {
+        super.displayInfo();
+        System.out.println("رابط التحميل: " + downloadLink);
+    }
+}
