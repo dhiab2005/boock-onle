@@ -4,6 +4,9 @@ A simple Java console application to manage books and borrowers using Object-Ori
 
 تطبيق بسيط بلغة Java لإدارة الكتب والمستعيرين باستخدام مبادئ البرمجة الكائنية.
 
+
+ STUDENT  dhiab abdallah
+ REGIMENT  4A
 ---
 
 ## Features | الميزات
