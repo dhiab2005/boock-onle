@@ -35,6 +35,8 @@ A simple Java console application to manage books and borrowers using Object-Ori
 تأكد من أن جميع الملفات ( Book.java, Library.java, LibraryApp.java) في نفس المجلد.
 قم بالدخول على الترمينال أو CMD في ذلك المجلد.
 استخدم الاستخدام التالي:
+
+
 javac *.java
 Geudoura dhiab abdallah
 grobb 4A
