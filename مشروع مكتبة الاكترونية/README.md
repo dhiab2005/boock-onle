@@ -36,14 +36,5 @@ A simple Java console application to manage books and borrowers using Object-Ori
 قم بالدخول على الترمينال أو CMD في ذلك المجلد.
 استخدم الاستخدام التالي:
 javac *.java
-java LibraryApp
-
-   
-   
-
-
-   Author | المطور
-
-Geudoura Ahmed (ahmed2005dz)
-
-2nd Year Computer Science Student – جامعة
+Geudoura dhiab abdallah
+grobb 4A
